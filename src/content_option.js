@@ -13,12 +13,12 @@ const introdata = {
         third: "I develop Web Application",
     },
     description: "I'm a Web-Desigener & MERN Stack Web Devloper focused on crafting , clean & user-friendly Experience , I am passionate about building exellent Software that improve the life ofthose around me. ",
-    your_img_url: "https://scontent.fblr1-7.fna.fbcdn.net/v/t51.75761-15/462741186_18354059344186167_7473531393114012916_n.jpg?stp=dst-jpegr_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=2DWX7VrTbz4Q7kNvgFbLXqI&_nc_zt=23&se=-1&_nc_ht=scontent.fblr1-7.fna&_nc_gid=A2s1KNWIbX8qqyTTQlWQ3bj&oh=00_AYDyxbszLr49O_2g7w4Hb59qRj8NYm6dozqjjRqe1pfnJw&oe=678954E1",
+    your_img_url: "https://scontent.fblr22-2.fna.fbcdn.net/v/t51.75761-15/462741186_18354059344186167_7473531393114012916_n.jpg?stp=dst-jpegr_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=R1WLpCyTY4gQ7kNvgHgj8gx&_nc_zt=23&se=-1&_nc_ht=scontent.fblr22-2.fna&_nc_gid=AKsT2ndP11FNMF5luSgPp_N&oh=00_AYA2B3hjjyVJXvMhj19mL_DfnC3bH7Cc2wy02a0UwxTYDw&oe=67A7A761",
 };
 
 const dataabout = {
     title:  "About my self",
-    aboutme: "Having 6 Months experience in web development specializing in html, css, bootstrap, javascript, jquery, reactjs, nodejs, API, Mysql, xml, json, ajax, jquery ajax, web services Experienced in development, and Web based applications. Well knowledge of Software Development Life Cycle, and well knowledge of module testing and module integration. Well knowledge of errors detecting and finding the bugs. Experience in web maintenance and good understanding in enhancement of requirements. Communicates with customers and offshore team members effectively. Excellent Team Player possessing Good Communication skills.",
+    aboutme: "Having experience in web development specializing in html, css, bootstrap, javascript, jquery, reactjs, nodejs, API, Mysql, xml, json, ajax, jquery ajax, web services Experienced in development, and Web based applications. Well knowledge of Software Development Life Cycle, and well knowledge of module testing and module integration. Well knowledge of errors detecting and finding the bugs. Experience in web maintenance and good understanding in enhancement of requirements. Communicates with customers and offshore team members effectively. Excellent Team Player possessing Good Communication skills.",
 };
 const worktimeline = [
     {
