@@ -8,12 +8,12 @@ const introdata = {
     title1: "I’m Yash ",
     title2: " Gupta",
     animated: {
-        first: "MERN Stack Developer",
+        first: "Web Application Developer",
         second: "Passionate About Coding",
         third: "I develop Web Application",
     },
     description: "I'm a Web-Desigener & MERN Stack Web Devloper focused on crafting , clean & user-friendly Experience , I am passionate about building exellent Software that improve the life ofthose around me. ",
-    your_img_url: "https://scontent.fblr22-2.fna.fbcdn.net/v/t51.75761-15/462741186_18354059344186167_7473531393114012916_n.jpg?stp=dst-jpegr_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=R1WLpCyTY4gQ7kNvgHgj8gx&_nc_zt=23&se=-1&_nc_ht=scontent.fblr22-2.fna&_nc_gid=AKsT2ndP11FNMF5luSgPp_N&oh=00_AYA2B3hjjyVJXvMhj19mL_DfnC3bH7Cc2wy02a0UwxTYDw&oe=67A7A761",
+    your_img_url: "myimage.png",
 };
 
 const dataabout = {
