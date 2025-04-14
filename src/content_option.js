@@ -22,8 +22,13 @@ const dataabout = {
 };
 const worktimeline = [
     {
-        jobtitle: "MERN Stack Developer (Intern)",
-        where: "InfoCampus Logics Pvt. Ltd.",
+        jobtitle: "MERN Stack Developer ( Intern )",
+        where: "Infotact Solutions",
+        date: "2025",
+    },
+    {
+        jobtitle: "MERN Stack Developer",
+        where: "First Enquiry Digital Media",
         date: "2024",
     },
     {
