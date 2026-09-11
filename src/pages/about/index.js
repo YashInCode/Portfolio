@@ -6,8 +6,10 @@ import {
   dataabout,
   meta,
   worktimeline,
+  education,
   skills,
   services,
+  achievements,
 } from "../../content_option";
 
 export const About = () => {
@@ -35,9 +37,9 @@ export const About = () => {
             </div>
           </Col>
         </Row>
-        <Row className=" sec_sp">
+        <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Work Experience</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -53,6 +55,42 @@ export const About = () => {
                 })}
               </tbody>
             </table>
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Education</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {education.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.degree}</th>
+                      <td>{data.where}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Key Achievements</h3>
+          </Col>
+          <Col lg="7">
+            <ul className="achievements-list">
+              {achievements.map((item, i) => {
+                return (
+                  <li key={i} className="achievement-item py-2">
+                    {item}
+                  </li>
+                );
+              })}
+            </ul>
           </Col>
         </Row>
         <Row className="sec_sp">
@@ -80,8 +118,8 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+          <Col lg="5">
+            <h3 className="color_sec py-4">Services</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {

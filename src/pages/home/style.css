@@ -92,8 +92,9 @@ section {
 }
 
 .intro_sec .h_bg-image {
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
     min-height: 600px;
     width:500px;
     border-radius:20px;

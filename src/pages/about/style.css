@@ -70,6 +70,26 @@
     padding-bottom: 4px;
 }
 
+.achievements-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.achievement-item {
+    position: relative;
+    padding-left: 20px;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.achievement-item::before {
+    content: '\25B8';
+    position: absolute;
+    left: 0;
+    color: var(--text-color);
+    font-weight: bold;
+}
+
 
 /*! CSS Used keyframes */
 
